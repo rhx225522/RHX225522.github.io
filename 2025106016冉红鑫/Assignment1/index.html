@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>月亮与六便士 · 有声讲解视频 · A Film on Maugham</title>
+<meta name="description" content="《月亮与六便士》有声书讲解视频 · 选题 / 旁白 / 分镜 / 视觉 / 方法 / 工具 / 策略 / 幕后。">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- 滚动进度条 -->
+<div class="prog"><i id="progi"></i></div>
+
+<!-- 顶部导航 -->
+<header class="topbar">
+  <a class="logo" href="#cover"><b>月亮与六便士</b><span>THE MOON AND SIXPENCE</span></a>
+  <nav id="nav">
+    <a href="#film">视频</a>
+    <a href="#topic">选题</a>
+    <a href="#storyboard">策划</a>
+    <a href="#voice">文案</a>
+    <a href="#visual">素材</a>
+    <a href="#method">方法</a>
+    <a href="#tools">工具</a>
+    <a href="#strategy">总结</a>
+    <a href="#behind">幕后</a>
+  </nav>
+</header>
+
+<!-- 入场序列 -->
+<div id="intro">
+  <div class="seed"></div>
+  <div class="txt"><span>The moon · full of sixpence</span><span>Look up · see the moon</span></div>
+</div>
+
+<!-- ========== Cover 封面 ========== -->
+<section id="cover" class="cover-stage">
+  <div class="film-bg"></div>
+  <div class="cover-inner">
+    <div class="s-no rv">A FILM ON MAUGHAM · 1919</div>
+    <h1 class="rv">月亮与六便士</h1>
+    <div class="en rv">THE MOON AND SIXPENCE</div>
+    <p class="quote-hook rv">满地都是六便士，他却抬头，<em>看见了月亮</em>。</p>
+    <div class="cover-actions rv">
+      <button class="cover-play" id="coverPlay">按 PLAY 欣赏</button>
+    </div>
+  </div>
+  <div class="film-hint">scroll · explore the making</div>
+</section>
+
+<!-- ========== 引子钩子 ========== -->
+<section id="hook" class="hook">
+  <div class="hook-inner">
+    <span class="qmark rv">?</span>
+    <p class="rv">四十岁 · 证券经纪人 · 伦敦 ·<br>妻贤子孝 · 生活体面 · <em>「我必须画画」</em>。</p>
+    <span class="by rv">MAUGHAM · THE MOON AND SIXPENCE</span>
+  </div>
+</section>
+
+<!-- ========== 影片 ========== -->
+<section id="film" class="film-stage">
+  <div class="film-bg"></div>
+  <div class="moon-mini" aria-hidden="true"></div>
+  <div class="film-cinema">
+    <div class="s-title rv"><div class="s-no">FILM · 2026</div><h2>视频</h2><span class="en">172 seconds</span></div>
+    <div class="player-box rv">
+      <video id="filmvideo" controls preload="metadata" poster="images/poster.jpg" src="mp4/moon-sixpence-web.mp4"></video>
+    </div>
+    <div class="film-info rv">
+      <span>正片 <b>2 分 52 秒</b></span>
+      <span>本页内嵌 <b>720p</b> · 字幕版</span>
+      <span>1080p 原片随作业包提交</span>
+      <span>H.264 + AAC · mp4 · faststart</span>
+    </div>
+  </div>
+</section>
+
+<!-- ========== S02 选题 ========== -->
+<section id="topic">
+  <div class="wrap">
+    <div class="s-title rv"><div class="s-no">S02 · TOPIC</div><h2>选题</h2><span class="en">why this book</span></div>
+    <div class="topic-grid">
+      <div>
+        <p class="s-lede rv">为什么在众多世界名著里选《月亮与六便士》？一句话：它把「理想与安稳」这道人人都要面对的选择题，写得最极端，也最适用于影像表达。</p>
+        <div class="cols-3 rv">
+          <div class="col-card"><span class="n">i.</span><h3>经典地位</h3><p>毛姆 1919 年长篇小说代表作，以画家高更为原型，公认「文学史上最疯狂的一次人生出走」。</p></div>
+          <div class="col-card"><span class="n">ii.</span><h3>主题共鸣</h3><p>月亮与六便士 = 理想与现实。冲突强、金句密，天然适合「金句卡 + 旁白」的有声书形态。</p></div>
+          <div class="col-card"><span class="n">iii.</span><h3>视觉可能</h3><p>伦敦雾夜、巴黎阁楼、塔希提海岛、焚画名场面——场景跨度大、色彩对比强，为 AI 生成素材提供清晰的视觉谱系。</p></div>
+        </div>
+      </div>
+      <div class="gent-col rv">
+        <img src="images/抠图_绅士背影.png" alt="雾夜绅士背影 · 抠图立绘">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== S03 旁白 ========== -->
+<section id="voice" style="background:var(--bg-2)">
+  <div class="wrap">
+    <div class="s-title rv"><div class="s-no">S03 · VOICE</div><h2>文案</h2><span class="en">eighteen lines</span></div>
+    <p class="s-lede rv">旁白共 18 段，写作原则有三：句子短、多设问、关键处直接引用书籍原文。配音使用微软神经网络男声「云健」纪录片音色，语速 -8%，逐段录制并实测时长——每一段旁白的长度，就是对应镜头的长度。</p>
+    <div class="quotes-grid rv">
+      <div class="qcard">
+        <span class="src">开场 · S1</span>
+        <p>满地都是六便士，他却抬头，看见了月亮。</p>
+      </div>
+      <div class="qcard">
+        <span class="src">巴黎 · S3 · 书籍原文</span>
+        <p>他说，<em>我必须画画，就像溺水的人，必须挣扎。</em></p>
+      </div>
+      <div class="qcard">
+        <span class="src">收尾 · S7 · 书籍原文</span>
+        <p>做自己最想做的事，过自己想过的生活，难道就是糟蹋自己吗？</p>
+      </div>
+    </div>
+    <div class="quotes-side rv" style="margin-top:60px">
+      <p class="lead-drop">三段摘录覆盖全片三个关键位置：开场钩子、巴黎转折、收尾提问。原句直接引用书籍文本，其余段落全部改写为口语化短句。</p>
+      <p>逐段配音实测的时长数据反向写回分镜表，形成「文案 → 时长 → 画面」的单向依赖，避免来回改稿。</p>
+      <p>全文按分镜逐条归档，可在 docs / 旁白脚本_分镜版.txt 查看完整 18 段。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== S04 分镜（素材轮动） ========== -->
+<section id="storyboard">
+  <div class="wrap">
+    <div class="rail-head rv"><div class="s-no">S04 · STORYBOARD</div><h2>策划</h2><span class="en">seven acts</span></div>
+    <p class="s-lede rv">七幕结构，31 段画面零复用。横向滑动浏览每一幕的核心画面——鼠标滚轮自动接管为横移，悬停时画面缓慢推进。</p>
+    <div class="rail" id="rail">
+      <div class="rail-cues rv">
+        <span class="rail-cap on">S1 · 开场</span>
+        <span class="rail-cap">S2 · 伦敦</span>
+        <span class="rail-cap">S3 · 巴黎</span>
+        <span class="rail-cap">S4 · 背叛</span>
+        <span class="rail-cap">S5 · 塔希提</span>
+        <span class="rail-cap">S6 · 焚烧</span>
+        <span class="rail-cap">S7 · 收尾</span>
+      </div>
+      <div class="rail-track">
+        <div class="slide"><img src="images/gallery-01-人物介绍卡.jpg" alt="S1 开场"><div class="meta"><div><div class="n">S1</div><h4>开场</h4></div><p class="desc">「满地都是六便士，他却抬头看见了月亮」—— 设问钩住观众，亮出书名与作者。</p></div></div>
+        <div class="slide"><img src="images/gallery-02-书页卡-巴黎.jpg" alt="S2 伦敦"><div class="meta"><div><div class="n">S2</div><h4>伦敦</h4></div><p class="desc">四十岁证券经纪人思特里克兰德的「标准人生」，直到那张字条与人间蒸发。</p></div></div>
+        <div class="slide"><img src="images/gallery-03-引文卡-画室.jpg" alt="S3 巴黎"><div class="meta"><div><div class="n">S3</div><h4>巴黎</h4></div><p class="desc">所有人以为私奔，真相是学画画；「我必须画画」书页卡点题。</p></div></div>
+        <div class="slide"><img src="images/gallery-04-燃烧的画.jpg" alt="S4 背叛"><div class="meta"><div><div class="n">S4</div><h4>背叛</h4></div><p class="desc">恩人之死，全片最冷的段落——用熄灭的烛火与床头静物控制情绪。</p></div></div>
+        <div class="slide"><img src="images/gallery-05-金句卡-遗言.jpg" alt="S5 塔希提"><div class="meta"><div><div class="n">S5</div><h4>塔希提</h4></div><p class="desc">南太平洋的椰林与大海，他终于画出了属于自己的世界。</p></div></div>
+        <div class="slide"><img src="images/gallery-06-海上明月.jpg" alt="S6 焚烧"><div class="meta"><div><div class="n">S6</div><h4>焚烧</h4></div><p class="desc">麻风、失明、四壁画满壁画，遗言烧掉一切——全片情绪顶点。</p></div></div>
+        <div class="slide"><img src="images/抠图_金月亮.png" alt="S7 收尾" style="object-fit:contain"><div class="meta"><div><div class="n">S7</div><h4>收尾</h4></div><p class="desc">回到观众：「满地六便士里，你抬头，看见月亮了吗？」</p></div></div>
+      </div>
+      <div class="rail-hint rv"><span>drag · scroll horizontally</span><span class="arrow">—→</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== S05 视觉 ========== -->
+<section id="visual" style="background:var(--bg-2)">
+  <div class="wrap">
+    <div class="s-title rv"><div class="s-no">S05 · VISUAL</div><h2>素材</h2><span class="en">oil on screen</span></div>
+    <p class="s-lede rv">全部素材三类来源：AI 生成油画风视频与插画、自备素材的程序合成 A 大调氛围 BGM。背景音乐与旁白之外的所有画面素材都经过逐帧质检。</p>
+    <div class="figs rv">
+      <div><b><span data-count="31">0</span></b><span>媒体片段 · 全片零复用</span></div>
+      <div><b><span data-count="18">0</span></b><span>段旁白配音 · 实测时长</span></div>
+      <div><b><span data-count="7">0</span></b><span>幕叙事结构</span></div>
+      <div><b><span data-count="1">0</span></b><span>程序合成 BGM · A 大调</span></div>
+    </div>
+    <div class="gal rv">
+      <figure class="plate featured"><img src="images/抠图_绅士背影.png" alt="抠图立绘" style="object-fit:contain"><figcaption><span class="no">PLATE 01 · matted</span><h4>雾夜绅士 · 抠图立绘</h4><p>前景提取 · 透明 PNG · 亮度提 18% 用于深底排版。</p></figcaption></figure>
+      <figure class="plate"><img src="images/抠图_金月亮.png" alt="抠图月亮" style="object-fit:contain"><figcaption><span class="no">PLATE 02 · matted</span><h4>金色满月 · 抠图元素</h4><p>擦除字幕 → 圆掩膜羽化 → trim。</p></figcaption></figure>
+      <figure class="plate"><img src="images/gallery-03-引文卡-画室.jpg" alt="引文卡"><figcaption><span class="no">PLATE 03</span><h4>引文卡 · 巴黎阁楼</h4><p>金边引文 · 配说明注解。</p></figcaption></figure>
+      <figure class="plate"><img src="images/gallery-04-燃烧的画.jpg" alt="燃烧的画"><figcaption><span class="no">PLATE 04</span><h4>燃烧的画</h4><p>说明注解 · 小屋四壁最后的壁画。</p></figcaption></figure>
+      <figure class="plate"><img src="images/gallery-05-金句卡-遗言.jpg" alt="金句卡"><figcaption><span class="no">PLATE 05</span><h4>金句卡 · 临终遗言</h4><p>全片情绪顶点 · 逐行上屏。</p></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ========== S06 方法 ========== -->
+<section id="method">
+  <div class="wrap">
+    <div class="s-title rv"><div class="s-no">S06 · METHOD</div><h2>方法</h2><span class="en">sound first</span></div>
+    <p class="s-lede rv">整条流水线是「<b>先定声音，再定画面</b>」：旁白时长即镜头时长，画面永远贴合声音而不是相反。</p>
+    <div class="method rv">
+      <div class="step"><b>01</b><h4>脚本与分镜</h4><p>写 18 段旁白，逐段定分镜、媒体与图文卡的出场时机。</p></div>
+      <div class="step"><b>02</b><h4>配音与实测</h4><p>TTS 逐段渲染并测量时长，误差精确到 0.001 秒。</p></div>
+      <div class="step"><b>03</b><h4>素材生产</h4><p>AI 生成油画风视频与插画，逐帧质检不合格即重做。</p></div>
+      <div class="step"><b>04</b><h4>代码合成</h4><p>Remotion 用 React 写视频：Ken Burns 缓推、硬切转场、spring 弹出。</p></div>
+      <div class="step"><b>05</b><h4>渲染输出</h4><p>30fps 逐帧渲染 5165 帧，H.264 + AAC，另出 720p 字幕版。</p></div>
+      <div class="step"><b>06</b><h4>质检归档</h4><p>抽帧检查 + 音频电平检测，成片与素材分类归档。</p></div>
+    </div>
+    <div class="sound-card rv">
+      <div class="lbl">07<b>声音设计</b></div>
+      <div>
+        <p>180 秒的程序合成 BGM，A 大调三和弦 pad 之上铺了一串柔和的铃音——刻意避开了"史诗感"，呼应毛姆冷静、不评判的叙述腔调。音量 0.17，5 秒淡入、3 秒淡出，仅在留白处托底，不抢旁白的字句。</p>
+        <p>合成方式：基频 220Hz 的正弦 + 谐波链 + 慢指数包络，Python 一次性生成 wav，再 ffmpeg 编码入轨。</p>
+        <div class="meta-tags"><span>A major · 180 s</span><span>pad + chime</span><span>voice -5 dB</span><span>code-gen · no royalty</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== S07 工具 ========== -->
+<section id="tools" style="background:var(--bg-2)">
+  <div class="wrap">
+    <div class="s-title rv"><div class="s-no">S07 · TOOLS</div><h2>工具</h2><span class="en">the kit</span></div>
+    <div class="rv">
+      <div class="tool-row"><span class="abbr">R</span><h4>Remotion<small>React + TypeScript</small></h4><p>用代码写视频的框架：分镜、动画、图文卡全部组件化，可随时改参重渲。</p></div>
+      <div class="tool-row"><span class="abbr">T</span><h4>edge-tts<small>神经网络语音</small></h4><p>男声「云健」纪录片音色，逐段生成 18 段旁白并实测时长。</p></div>
+      <div class="tool-row"><span class="abbr">A</span><h4>AI 图像 / 视频生成</h4><p>油画风格提示词体系，产出 16 段视频素材与全部插画。</p></div>
+      <div class="tool-row"><span class="abbr">F</span><h4>FFmpeg<small>剪辑 / 质检</small></h4><p>抽帧检查、音频电平检测、多版本转码与 faststart 优化。</p></div>
+      <div class="tool-row"><span class="abbr">P</span><h4>Python</h4><p>脚本化管理：素材归档、BGM 合成（正弦叠加 + 包络 + 软限幅）。</p></div>
+      <div class="tool-row"><span class="abbr">G</span><h4>GitHub Pages + nginx</h4><p>静态站点：nginx 本地测试后推送 GitHub Pages 发布。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== S08 策略 ========== -->
+<section id="strategy">
+  <div class="wrap">
+    <div class="s-title rv"><div class="s-no">S08 · SUMMARY</div><h2>总结</h2><span class="en">post production</span></div>
+    <p class="s-lede rv">面向「制作系列视频」的长期策略——把这次踩出的形状固化成模板，下次开工时直接复用。</p>
+    <div class="strategy rv">
+      <div class="stg"><div class="ix">α</div><h4>声音锁定画面</h4><p>先逐段生成 TTS 并实测时长，把时长数据反向写回分镜表，让画面永远贴合声音而不是相反。</p></div>
+      <div class="stg"><div class="ix">β</div><h4>视觉系统化</h4><p>每幕提取主色，整片统一墨蓝 × 暖金调色 + 胶片颗粒，避免片段与片段之间的视觉割裂。</p></div>
+      <div class="stg"><div class="ix">γ</div><h4>素材零复用</h4><p>每个 5 秒素材只出现一次；长镜头内部硬切两段；用 Ken Burns 缓推掩盖有限素材的循环感。</p></div>
+      <div class="stg"><div class="ix">δ</div><h4>字幕即对齐</h4><p>下一步用 Whisper 做语音级字幕对齐，告别字符加权近似；字幕版独立导出，保持原版干净。</p></div>
+      <div class="stg"><div class="ix">ε</div><h4>动效参数化</h4><p>出场动画的时长、缓动、距离写成可调参数，迁到下一部影片时只换内容不改动画。</p></div>
+      <div class="stg"><div class="ix">ζ</div><h4>素材分层归档</h4><p>视频 / 音频 / 字幕 / BGM / 元数据全部按 01-08 类目独立落盘，制作时按目录拼装即可。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== S09 幕后 ========== -->
+<section id="behind" style="background:var(--bg-2)">
+  <div class="wrap">
+    <div class="behind-head rv"><div class="s-no">S09 · BEHIND</div><h2>幕后</h2><span class="en">pitfalls · feedback · path</span></div>
+    <div class="tab rv">
+      <button class="on" data-tab="pit">踩过的坑</button>
+      <button data-tab="fb">把关意见</button>
+      <button data-tab="stg">后期策略</button>
+    </div>
+
+    <div class="tabpanel on" id="panel-pit">
+      <ul class="list-grid pit">
+        <li><b>视频镜头复用</b>第一版 v2 仍能察觉到 5 秒素材的二次出现，长镜头里"同景别再演一遍"。后来用「长镜头内硬切两段」彻底消除循环感。</li>
+        <li><b>字幕与语音不贴合</b>字符加权估算代替不了语音识别，停顿、半字、连读全靠猜。下一步必须接 Whisper。</li>
+        <li><b>图文卡时机靠经验</b>人物介绍卡、引文卡、金句卡出现时机全靠人脑估算，没有可复用的算法。</li>
+        <li><b>AI 视频带水印</b>部分生成视频右下角出现极淡水印，肉眼难察，放大后明显。需逐帧 QC。</li>
+        <li><b>抠图月亮残留字幕</b>matting 后月亮本体上残留画面里的文字，用 erase 擦除后背景又被填白，最后改用 alpha 圆掩膜 + 羽化收尾。</li>
+        <li><b>海外素材下载</b>i.pinimg.com 直连 0 字节，走了本地代理并加 curl -k 才握手成功，过程踩了两次。</li>
+        <li><b>字幕版台词与画面错位</b>字幕版初版仍有书页卡整镜字幕上屏，改为"文本卡同类内容"视同跳过，整镜沉默。</li>
+        <li><b>多模态脚本并行崩包</b>两个 matting 同时跑导致 urllib3 包损坏，第二次重跑还得手动 force-reinstall。多模态处理不要并行。</li>
+      </ul>
+    </div>
+
+    <div class="tabpanel" id="panel-fb">
+      <ul class="list-grid fb">
+        <li><b>书页卡保留</b>第一版人物介绍卡 / 内嵌图文 / 引文卡 / 金句卡都要保留——它们是讲解视频而不仅仅是短图文。</li>
+        <li><b>字幕版本要单独出</b>视频做完后单独渲染一份 720p 字幕版用于网页内嵌。</li>
+        <li><b>网页先内容后设计</b>不要把「内容 + 设计稿」一次性推，先把八节内容逐字稿过一遍，确认后再做视觉。</li>
+        <li><b>眉题不写「数字编辑」</b>「数字编辑 · 第一次作业」改成「第一次作业 · Assignment 1」或更直接的「FILM · 2026」。</li>
+        <li><b>信息条学号要明确</b>统一改成 2025106016，全站统一显示。</li>
+        <li><b>印章不要</b>「望月」朱砂印章删除，不必要的国风元素。</li>
+        <li><b>章节号不要繁体</b>壹贰叁…捌风格不统一，改用 01–08 阿拉伯数字。</li>
+        <li><b>风格先试美术馆画册</b>先试"白盒子"画册风，再提供多方向备选，但首次出稿就奔着高级感去。</li>
+        <li><b>封面要有冲击力</b>不要模糊的小图，「视图打开就要被吸住」——大排版、深色调、电影感。</li>
+        <li><b>视频放到第一屏</b>先看视频，再展开制作内容，不要把视频埋在第七节。</li>
+        <li><b>分镜节要展示素材</b>把每一幕的核心画面以轮动形式铺出来，让人看到这部视频是怎么"长"出来的。</li>
+        <li><b>总结要写坑与策略</b>踩过的坑、把关人给的意见、后期制作对应策略三类都要列出来，不能只写收获。</li>
+      </ul>
+    </div>
+
+    <div class="tabpanel" id="panel-stg">
+      <ul class="list-grid stg-li">
+        <li><b>作品集网站优先于课程作业</b>页面围绕「这部视频怎么做的」，去掉课程标签与学号条；导航改为 "影片 / 选题 / 旁白 / 分镜 / 视觉 / 方法 / 工具 / 策略 / 幕后"。</li>
+        <li><b>第一屏即视频</b>视频用全屏深色播放器 + 大 PLAY 按钮入场，看完向下展开。</li>
+        <li><b>入场加仪式感</b>封面入场用月亮绽放动效，1.1s 后淡出，建立"电影开场"基调。</li>
+        <li><b>抠图立绘可复用</b>绅士背影用作选题节主形象，金色满月用作视觉节与结尾呼应；抠图资产沉淀为下次复用素材。</li>
+        <li><b>轮动比静态更有戏</b>分镜节用横向 snap-scroll + Ken Burns 缓推，让"看分镜"变成"边滚动边观展"。</li>
+        <li><b>顶部进度条 + 节序高亮</b>滚动到哪一节一目了然，金色 hairline 串联整页。</li>
+        <li><b>数字计数器</b>视觉节 31 / 18 / 7 / 1 等关键数字滚动到视区时做 0 → 目标值的 ease-out 动画。</li>
+        <li><b>幕后做三栏 Tab</b>踩坑 / 意见 / 策略三个维度并列，用 Tab 切换，不堆在同一栏让人读不下去。</li>
+        <li><b>深底 + 暖金 + 米色字</b>与视频调性一致，避免纯白奶油底（之前版本）"太柔"。</li>
+        <li><b>下个项目直接套模板</b>把本套版式 / 交互 / 文件结构沉淀为模板，下次只换内容。</li>
+      </ul>
+    </div>
+
+    <div class="note-row rv">
+      <span>made with · Remotion · edge-tts · FFmpeg · Python</span>
+      <span>format · 1080p · H.264 + AAC</span>
+      <span>runtime · 2 分 52 秒</span>
+      <span id="yr"></span>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 页脚 ========== -->
+<footer>
+  <div class="wrap">
+    <div>
+      <div class="nm">月亮与六便士</div>
+      <p>The Moon and Sixpence · A Film on Maugham<br>W. Somerset Maugham · 1919</p>
+    </div>
+    <div>
+      <p>Two hours and fifty-two seconds · seven acts<br>Eighteen narrations · thirty-one cuts · one BGM</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+// ====== 幕后 Tab 切换 ======
+(function(){
+  var btns = document.querySelectorAll('.tab button');
+  var panels = document.querySelectorAll('.tabpanel');
+  btns.forEach(function(b){
+    b.addEventListener('click', function(){
+      var k = b.getAttribute('data-tab');
+      btns.forEach(function(x){ x.classList.toggle('on', x===b); });
+      panels.forEach(function(p){ p.classList.toggle('on', p.id === 'panel-' + k); });
+    });
+  });
+})();
+</script>
+</body>
+</html>
